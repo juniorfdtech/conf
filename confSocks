@@ -54,7 +54,7 @@ echo -e "\033[1;32mPort 80 OK √ \033[0m"
 history -c
 else
 echo -e "\033[1;31mBaixando arquivos para porta 80...\033[0m"
-wget https://github.com/juniorfdtech/conf/blob/master/proxy.py > /dev/null 2> /dev/null
+wget https://raw.githubusercontent.com/juniorfdtech/conf/master/proxy.py > /dev/null 2> /dev/null
 history -c
 fi
 
@@ -63,7 +63,7 @@ echo -e "\033[1;32mPort 8080 OK √ \033[0m"
 history -c
 else
 echo -e "\033[1;31mBaixando arquivos para porta 8080...\033[0m"
-wget https://github.com/juniorfdtech/conf/blob/master/proxy8080.py > /dev/null 2> /dev/null
+wget https://raw.githubusercontent.com/juniorfdtech/conf/master/proxy8080.py > /dev/null 2> /dev/null
 history -c
 fi
 
@@ -72,7 +72,7 @@ echo -e "\033[1;32mPort 8799 OK √ \033[0m"
 history -c
 else
 echo -e "\033[1;31mBaixando arquivos para porta 8799...\033[0m"
-wget https://github.com/juniorfdtech/conf/blob/master/proxy8799.py > /dev/null 2> /dev/null
+wget https://raw.githubusercontent.com/juniorfdtech/conf/master/proxy8799.py > /dev/null 2> /dev/null
 history -c
 fi
 
@@ -84,7 +84,7 @@ echo -e "\033[1;32mPort 3128 OK √ \033[0m"
 history -c
 else
 echo -e "\033[1;31mBaixando arquivos para porta 3128...\033[0m"
-wget https://github.com/juniorfdtech/conf/blob/master/proxy3128.py > /dev/null 2> /dev/null
+wget https://raw.githubusercontent.com/juniorfdtech/conf/master/proxy3128.py > /dev/null 2> /dev/null
 history -c
 fi
 
