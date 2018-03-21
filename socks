@@ -20,9 +20,7 @@ azul=proxy3128.py
 
 sshd_config(){ echo "# © Magisk-SSH | 2018 All rights reserved
 #
-Port 22
-Port 144
-Port 443 
+Port 22 
 Protocol 2 
 KeyRegenerationInterval 3600 
 ServerKeyBits 1024 
